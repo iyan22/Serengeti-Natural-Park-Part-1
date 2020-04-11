@@ -1,4 +1,4 @@
-package packSimulator;
+package simulator;
 
 import serengetiPark.*;
 
@@ -14,7 +14,7 @@ import java.util.Scanner;
  * @version Project - Part 1
  *
  */
-public class SerengetiParkSimulator {
+public class SerengetiSimulator {
 
     public static void main(String[] args) {
 

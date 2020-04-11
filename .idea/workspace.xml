@@ -2,30 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13ca03ea-1688-4da6-a5b6-0d99633afbcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SerengetiNaturalPark.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SerengetiNaturalPark.userlibraries" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/locations.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/CaptureErrorException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/ImpossibleToCaptureException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/packSimulator/SerengetiParkSimulator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/serengetiPark/Drone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/serengetiPark/GPS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/serengetiPark/SerengetiMonitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/serengetiPark/Specimen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/serengetiPark/TrackingDevice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/GPSTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/SerengetiMonitorTestDefault.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/SerengetiMonitorTestDrones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/SerengetiMonitorTestNoDrones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/SpecimenTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/packSimulator/SerengetiParkSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simulator/SerengetiSimulator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,9 +56,9 @@
       <recent name="serengetiPark" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SerengetiParkSimulator">
-    <configuration name="SerengetiParkSimulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="packSimulator.SerengetiParkSimulator" />
+  <component name="RunManager" selected="Application.SerengetiSimulator">
+    <configuration name="SerengetiSimulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="simulator.SerengetiSimulator" />
       <module name="SerengetiNaturalPark" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,7 +103,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SerengetiParkSimulator" />
+        <item itemvalue="Application.SerengetiSimulator" />
         <item itemvalue="JUnit.SerengetiMonitorTestDefault" />
         <item itemvalue="JUnit.SerengetiMonitorTestNoDrones" />
         <item itemvalue="JUnit.SerengetiMonitorTestDrones" />
@@ -159,12 +137,24 @@
       <workItem from="1586101842991" duration="436000" />
       <workItem from="1586102784744" duration="14000" />
       <workItem from="1586635333649" duration="618000" />
-      <workItem from="1586636026006" duration="75000" />
+      <workItem from="1586636026006" duration="419000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit.">
+      <created>1586636122089</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586636122089</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit." />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit." />
   </component>
   <component name="WindowStateProjectService">
     <state x="100" y="84" width="1240" height="768" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1586098061868">
@@ -189,29 +179,33 @@
     </state>
     <state x="461" y="194" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.900/-1920.-67.1920.1080@0.0.1440.900" timestamp="1585477969212" />
     <state x="461" y="194" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.900@0.0.1440.900" timestamp="1586101856447" />
-    <state width="1398" height="112" key="GridCell.Tab.0.bottom" timestamp="1586102531769">
+    <state x="281" y="25" key="CommitChangelistDialog2" timestamp="1586636121947">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="281" y="25" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1586636121947" />
+    <state width="1398" height="318" key="GridCell.Tab.0.bottom" timestamp="1586636432097">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="176" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-67.1920.1080@0.0.1440.900" timestamp="1585492785517" />
-    <state width="1398" height="112" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586102531769" />
+    <state width="1398" height="318" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586636432097" />
     <state width="1398" height="241" key="GridCell.Tab.0.bottom/0.23.1440.822/-1920.-44.1920.1057@0.23.1440.822" timestamp="1585673146316" />
-    <state width="1398" height="112" key="GridCell.Tab.0.center" timestamp="1586102531768">
+    <state width="1398" height="318" key="GridCell.Tab.0.center" timestamp="1586636432095">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="176" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-67.1920.1080@0.0.1440.900" timestamp="1585492785516" />
-    <state width="1398" height="112" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586102531768" />
+    <state width="1398" height="318" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586636432095" />
     <state width="1398" height="241" key="GridCell.Tab.0.center/0.23.1440.822/-1920.-44.1920.1057@0.23.1440.822" timestamp="1585673146314" />
-    <state width="1398" height="112" key="GridCell.Tab.0.left" timestamp="1586102531768">
+    <state width="1398" height="318" key="GridCell.Tab.0.left" timestamp="1586636432094">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="176" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-67.1920.1080@0.0.1440.900" timestamp="1585492785515" />
-    <state width="1398" height="112" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586102531768" />
+    <state width="1398" height="318" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586636432094" />
     <state width="1398" height="241" key="GridCell.Tab.0.left/0.23.1440.822/-1920.-44.1920.1057@0.23.1440.822" timestamp="1585673146313" />
-    <state width="1398" height="112" key="GridCell.Tab.0.right" timestamp="1586102531769">
+    <state width="1398" height="318" key="GridCell.Tab.0.right" timestamp="1586636432096">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="176" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-67.1920.1080@0.0.1440.900" timestamp="1585492785516" />
-    <state width="1398" height="112" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586102531769" />
+    <state width="1398" height="318" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586636432096" />
     <state width="1398" height="241" key="GridCell.Tab.0.right/0.23.1440.822/-1920.-44.1920.1057@0.23.1440.822" timestamp="1585673146315" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1585435469677">
       <screen x="0" y="0" width="1440" height="900" />
@@ -256,6 +250,10 @@
     </state>
     <state x="499" y="184" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900/-1920.-67.1920.1080@0.0.1440.900" timestamp="1585260171374" />
     <state x="499" y="184" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900@0.0.1440.900" timestamp="1586098530850" />
+    <state x="542" y="351" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1586636164062">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="542" y="351" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1440.900@0.0.1440.900" timestamp="1586636164062" />
     <state x="426" y="73" key="refactoring.ChangeSignatureDialog" timestamp="1585317648104">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
