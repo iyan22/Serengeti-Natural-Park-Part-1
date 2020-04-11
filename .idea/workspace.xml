@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="13ca03ea-1688-4da6-a5b6-0d99633afbcd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SerengetiNaturalPark.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SerengetiNaturalPark.userlibraries" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/locations.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/CaptureErrorException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/ImpossibleToCaptureException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/packSimulator/SerengetiParkSimulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/serengetiPark/Drone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/serengetiPark/GPS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/serengetiPark/SerengetiMonitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/serengetiPark/Specimen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/serengetiPark/TrackingDevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/GPSTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/SerengetiMonitorTestDefault.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/SerengetiMonitorTestDrones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/SerengetiMonitorTestNoDrones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/SpecimenTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ZcxB7nq7mUCjEnn7HilFFDhUoY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="test" />
+      <recent name="serengetiPark" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="serengetiPark" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SerengetiParkSimulator">
+    <configuration name="SerengetiParkSimulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="packSimulator.SerengetiParkSimulator" />
+      <module name="SerengetiNaturalPark" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SerengetiMonitorTestDefault" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SerengetiNaturalPark" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.SerengetiMonitorTestDefault" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SerengetiMonitorTestDrones" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SerengetiNaturalPark" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.SerengetiMonitorTestDrones" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SerengetiMonitorTestDrones.testCaptureWithAttemptsManyDrones" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SerengetiNaturalPark" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.SerengetiMonitorTestDrones" />
+      <option name="METHOD_NAME" value="testCaptureWithAttemptsManyDrones" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SerengetiMonitorTestNoDrones" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SerengetiNaturalPark" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.SerengetiMonitorTestNoDrones" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SerengetiParkSimulator" />
+        <item itemvalue="JUnit.SerengetiMonitorTestDefault" />
+        <item itemvalue="JUnit.SerengetiMonitorTestNoDrones" />
+        <item itemvalue="JUnit.SerengetiMonitorTestDrones" />
+        <item itemvalue="JUnit.SerengetiMonitorTestDrones.testCaptureWithAttemptsManyDrones" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13ca03ea-1688-4da6-a5b6-0d99633afbcd" name="Default Changelist" comment="" />
+      <created>1585152045006</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585152045006</updated>
+      <workItem from="1585152047744" duration="2779000" />
+      <workItem from="1585155984548" duration="1465000" />
+      <workItem from="1585157482884" duration="12518000" />
+      <workItem from="1585234277522" duration="21541000" />
+      <workItem from="1585309843921" duration="2414000" />
+      <workItem from="1585317401086" duration="40000" />
+      <workItem from="1585317473887" duration="3111000" />
+      <workItem from="1585337561356" duration="570000" />
+      <workItem from="1585395417943" duration="4488000" />
+      <workItem from="1585407546746" duration="10658000" />
+      <workItem from="1585474037522" duration="3623000" />
+      <workItem from="1585477693320" duration="1572000" />
+      <workItem from="1585646855640" duration="180000" />
+      <workItem from="1585733283179" duration="592000" />
+      <workItem from="1586009375308" duration="2154000" />
+      <workItem from="1586097423024" duration="3161000" />
+      <workItem from="1586101842991" duration="436000" />
+      <workItem from="1586102784744" duration="14000" />
+      <workItem from="1586635333649" duration="618000" />
+      <workItem from="1586636026006" duration="75000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="100" y="84" width="1240" height="768" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1586098061868">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="100" y="84" width="1240" height="768" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1440.900@0.0.1440.900" timestamp="1586098061868" />
+    <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.821/-1920.-44.1920.1057@0.23.1440.821" timestamp="1585247992666" />
+    <state x="533" y="158" key="#com.intellij.ide.util.MemberChooser" timestamp="1585260691268">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="533" y="158" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-1920.-67.1920.1080@0.0.1440.900" timestamp="1585260691268" />
+    <state x="458" y="233" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1585177100481">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="233" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1440.900/-1920.-67.1920.1080@0.0.1440.900" timestamp="1585177100481" />
+    <state x="484" y="339" width="471" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586098317188">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="484" y="339" width="471" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.900@0.0.1440.900" timestamp="1586098317188" />
+    <state x="461" y="194" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1586101856447">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="461" y="194" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.900/-1920.-67.1920.1080@0.0.1440.900" timestamp="1585477969212" />
+    <state x="461" y="194" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.900@0.0.1440.900" timestamp="1586101856447" />
+    <state width="1398" height="112" key="GridCell.Tab.0.bottom" timestamp="1586102531769">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="176" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-67.1920.1080@0.0.1440.900" timestamp="1585492785517" />
+    <state width="1398" height="112" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586102531769" />
+    <state width="1398" height="241" key="GridCell.Tab.0.bottom/0.23.1440.822/-1920.-44.1920.1057@0.23.1440.822" timestamp="1585673146316" />
+    <state width="1398" height="112" key="GridCell.Tab.0.center" timestamp="1586102531768">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="176" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-67.1920.1080@0.0.1440.900" timestamp="1585492785516" />
+    <state width="1398" height="112" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586102531768" />
+    <state width="1398" height="241" key="GridCell.Tab.0.center/0.23.1440.822/-1920.-44.1920.1057@0.23.1440.822" timestamp="1585673146314" />
+    <state width="1398" height="112" key="GridCell.Tab.0.left" timestamp="1586102531768">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="176" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-67.1920.1080@0.0.1440.900" timestamp="1585492785515" />
+    <state width="1398" height="112" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586102531768" />
+    <state width="1398" height="241" key="GridCell.Tab.0.left/0.23.1440.822/-1920.-44.1920.1057@0.23.1440.822" timestamp="1585673146313" />
+    <state width="1398" height="112" key="GridCell.Tab.0.right" timestamp="1586102531769">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="176" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-67.1920.1080@0.0.1440.900" timestamp="1585492785516" />
+    <state width="1398" height="112" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586102531769" />
+    <state width="1398" height="241" key="GridCell.Tab.0.right/0.23.1440.822/-1920.-44.1920.1057@0.23.1440.822" timestamp="1585673146315" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1585435469677">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900/-1920.-67.1920.1080@0.0.1440.900" timestamp="1585270362786" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585435469677" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1585435469676">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900/-1920.-67.1920.1080@0.0.1440.900" timestamp="1585270362785" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1585435469676" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1585435469676">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900/-1920.-67.1920.1080@0.0.1440.900" timestamp="1585270362785" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1585435469676" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1585435469677">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900/-1920.-67.1920.1080@0.0.1440.900" timestamp="1585270362786" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1585435469677" />
+    <state x="221" y="89" key="SettingsEditor" timestamp="1586635437135">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900/-1920.-67.1920.1080@0.0.1440.900" timestamp="1585175288099" />
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1586635437135" />
+    <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1586635848675">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1440.900@0.0.1440.900" timestamp="1586635848675" />
+    <state x="397" y="281" key="com.intellij.ide.util.TipDialog" timestamp="1586102787294">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="397" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900/-1920.-67.1920.1080@0.0.1440.900" timestamp="1585474039111" />
+    <state x="397" y="281" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1586102787294" />
+    <state x="424" y="351" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1585177164256">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="424" y="351" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1440.900/-1920.-67.1920.1080@0.0.1440.900" timestamp="1585177164256" />
+    <state x="499" y="184" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586098530850">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="499" y="184" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900/-1920.-67.1920.1080@0.0.1440.900" timestamp="1585260171374" />
+    <state x="499" y="184" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900@0.0.1440.900" timestamp="1586098530850" />
+    <state x="426" y="73" key="refactoring.ChangeSignatureDialog" timestamp="1585317648104">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="426" y="73" key="refactoring.ChangeSignatureDialog/0.0.1440.900/-1920.-67.1920.1080@0.0.1440.900" timestamp="1585317648104" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1585474084729">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/-1920.-67.1920.1080@0.0.1440.900" timestamp="1585474084729" />
+  </component>
+</project>
