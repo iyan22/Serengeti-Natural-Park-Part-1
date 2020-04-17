@@ -63,13 +63,15 @@ public class Drone {
      * @throws CaptureErrorException when it was not possible to capture the image.
      */
     public byte[][] moveAndCaptureImage(GPS newLocation) throws CaptureErrorException {
-        GPS start = gps;
+        GPS start = whereIAm();
         setAvailable(false);
-        if (!(newLocation.equals(whereIAm()))) {
+        if (!(newLocation.equals(start))) {
             move(newLocation);
         }
         byte[][] image = tryToCapture();
-        move(start);
+        if (!(newLocation.equals(start))) {
+            move(start);
+        }
         setAvailable(true);
         System.out.println();
         return image;

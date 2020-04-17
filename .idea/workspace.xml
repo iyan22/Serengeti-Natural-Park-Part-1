@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="13ca03ea-1688-4da6-a5b6-0d99633afbcd" name="Default Changelist" comment="">
+    <list default="true" id="13ca03ea-1688-4da6-a5b6-0d99633afbcd" name="Default Changelist" comment="Added task (PDF)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serengetiPark/Drone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/serengetiPark/Drone.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,12 +40,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ZcxB7nq7mUCjEnn7HilFFDhUoY" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -140,6 +162,8 @@
       <workItem from="1586636026006" duration="558000" />
       <workItem from="1586640464565" duration="252000" />
       <workItem from="1586690331723" duration="432000" />
+      <workItem from="1586702641217" duration="129000" />
+      <workItem from="1587142845624" duration="228000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1586636122089</created>
@@ -162,17 +186,38 @@
       <option name="project" value="LOCAL" />
       <updated>1586640502290</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added task (PDF)">
+      <created>1586702723635</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586702723635</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial commit." />
     <MESSAGE value="Finished Project - Part 1." />
     <MESSAGE value="Added uml and diagrams." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added uml and diagrams." />
+    <MESSAGE value="Added task (PDF)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added task (PDF)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="100" y="84" width="1240" height="768" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1586098061868">
@@ -201,29 +246,29 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="281" y="23" width="1018" height="821" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1586640502124" />
-    <state width="1398" height="318" key="GridCell.Tab.0.bottom" timestamp="1586636608821">
+    <state width="699" height="318" key="GridCell.Tab.0.bottom" timestamp="1587143069145">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="176" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-67.1920.1080@0.0.1440.900" timestamp="1585492785517" />
-    <state width="1398" height="318" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586636608821" />
+    <state width="699" height="318" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587143069145" />
     <state width="1398" height="241" key="GridCell.Tab.0.bottom/0.23.1440.822/-1920.-44.1920.1057@0.23.1440.822" timestamp="1585673146316" />
-    <state width="1398" height="318" key="GridCell.Tab.0.center" timestamp="1586636608819">
+    <state width="699" height="318" key="GridCell.Tab.0.center" timestamp="1587143069143">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="176" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-67.1920.1080@0.0.1440.900" timestamp="1585492785516" />
-    <state width="1398" height="318" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586636608819" />
+    <state width="699" height="318" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587143069143" />
     <state width="1398" height="241" key="GridCell.Tab.0.center/0.23.1440.822/-1920.-44.1920.1057@0.23.1440.822" timestamp="1585673146314" />
-    <state width="1398" height="318" key="GridCell.Tab.0.left" timestamp="1586636608818">
+    <state width="699" height="318" key="GridCell.Tab.0.left" timestamp="1587143069142">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="176" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-67.1920.1080@0.0.1440.900" timestamp="1585492785515" />
-    <state width="1398" height="318" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586636608818" />
+    <state width="699" height="318" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587143069142" />
     <state width="1398" height="241" key="GridCell.Tab.0.left/0.23.1440.822/-1920.-44.1920.1057@0.23.1440.822" timestamp="1585673146313" />
-    <state width="1398" height="318" key="GridCell.Tab.0.right" timestamp="1586636608820">
+    <state width="699" height="318" key="GridCell.Tab.0.right" timestamp="1587143069144">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="176" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-67.1920.1080@0.0.1440.900" timestamp="1585492785516" />
-    <state width="1398" height="318" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586636608820" />
+    <state width="699" height="318" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587143069144" />
     <state width="1398" height="241" key="GridCell.Tab.0.right/0.23.1440.822/-1920.-44.1920.1057@0.23.1440.822" timestamp="1585673146315" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1585435469677">
       <screen x="0" y="0" width="1440" height="900" />
@@ -250,9 +295,10 @@
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900/-1920.-67.1920.1080@0.0.1440.900" timestamp="1585175288099" />
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1586635437135" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1586640512071">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1586702730152">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900/-1920.-67.1920.1080@0.0.1440.900" timestamp="1586702730152" />
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1586640512071" />
     <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1586635848675">
       <screen x="0" y="0" width="1440" height="900" />
