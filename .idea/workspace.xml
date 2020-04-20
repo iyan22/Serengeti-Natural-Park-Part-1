@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13ca03ea-1688-4da6-a5b6-0d99633afbcd" name="Default Changelist" comment="Added task (PDF)">
+    <list default="true" id="13ca03ea-1688-4da6-a5b6-0d99633afbcd" name="Default Changelist" comment="Updated moveAndCaptureImage method">
+      <change afterPath="$PROJECT_DIR$/memory/Project Serengeti Natural Park.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serengetiPark/Drone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/serengetiPark/Drone.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +78,7 @@
       <recent name="serengetiPark" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SerengetiSimulator">
+  <component name="RunManager" selected="JUnit.SerengetiMonitorTestDrones">
     <configuration name="SerengetiSimulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="simulator.SerengetiSimulator" />
       <module name="SerengetiNaturalPark" />
@@ -125,10 +125,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SerengetiSimulator" />
-        <item itemvalue="JUnit.SerengetiMonitorTestDefault" />
-        <item itemvalue="JUnit.SerengetiMonitorTestNoDrones" />
         <item itemvalue="JUnit.SerengetiMonitorTestDrones" />
+        <item itemvalue="JUnit.SerengetiMonitorTestDefault" />
+        <item itemvalue="Application.SerengetiSimulator" />
+        <item itemvalue="JUnit.SerengetiMonitorTestNoDrones" />
         <item itemvalue="JUnit.SerengetiMonitorTestDrones.testCaptureWithAttemptsManyDrones" />
       </list>
     </recent_temporary>
@@ -163,7 +163,9 @@
       <workItem from="1586640464565" duration="252000" />
       <workItem from="1586690331723" duration="432000" />
       <workItem from="1586702641217" duration="129000" />
-      <workItem from="1587142845624" duration="228000" />
+      <workItem from="1587142845624" duration="722000" />
+      <workItem from="1587322792254" duration="645000" />
+      <workItem from="1587378963904" duration="776000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1586636122089</created>
@@ -193,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586702723635</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Updated moveAndCaptureImage method">
+      <created>1587143116770</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1587143116770</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,7 +226,8 @@
     <MESSAGE value="Finished Project - Part 1." />
     <MESSAGE value="Added uml and diagrams." />
     <MESSAGE value="Added task (PDF)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added task (PDF)" />
+    <MESSAGE value="Updated moveAndCaptureImage method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated moveAndCaptureImage method" />
   </component>
   <component name="WindowStateProjectService">
     <state x="100" y="84" width="1240" height="768" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1586098061868">
@@ -246,29 +256,29 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="281" y="23" width="1018" height="821" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1586640502124" />
-    <state width="699" height="318" key="GridCell.Tab.0.bottom" timestamp="1587143069145">
+    <state width="1398" height="318" key="GridCell.Tab.0.bottom" timestamp="1587379621353">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="176" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-67.1920.1080@0.0.1440.900" timestamp="1585492785517" />
-    <state width="699" height="318" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587143069145" />
+    <state width="1398" height="318" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587379621353" />
     <state width="1398" height="241" key="GridCell.Tab.0.bottom/0.23.1440.822/-1920.-44.1920.1057@0.23.1440.822" timestamp="1585673146316" />
-    <state width="699" height="318" key="GridCell.Tab.0.center" timestamp="1587143069143">
+    <state width="1398" height="318" key="GridCell.Tab.0.center" timestamp="1587379621351">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="176" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-67.1920.1080@0.0.1440.900" timestamp="1585492785516" />
-    <state width="699" height="318" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587143069143" />
+    <state width="1398" height="318" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587379621351" />
     <state width="1398" height="241" key="GridCell.Tab.0.center/0.23.1440.822/-1920.-44.1920.1057@0.23.1440.822" timestamp="1585673146314" />
-    <state width="699" height="318" key="GridCell.Tab.0.left" timestamp="1587143069142">
+    <state width="1398" height="318" key="GridCell.Tab.0.left" timestamp="1587379621350">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="176" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-67.1920.1080@0.0.1440.900" timestamp="1585492785515" />
-    <state width="699" height="318" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587143069142" />
+    <state width="1398" height="318" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587379621350" />
     <state width="1398" height="241" key="GridCell.Tab.0.left/0.23.1440.822/-1920.-44.1920.1057@0.23.1440.822" timestamp="1585673146313" />
-    <state width="699" height="318" key="GridCell.Tab.0.right" timestamp="1587143069144">
+    <state width="1398" height="318" key="GridCell.Tab.0.right" timestamp="1587379621353">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="176" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-67.1920.1080@0.0.1440.900" timestamp="1585492785516" />
-    <state width="699" height="318" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587143069144" />
+    <state width="1398" height="318" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587379621353" />
     <state width="1398" height="241" key="GridCell.Tab.0.right/0.23.1440.822/-1920.-44.1920.1057@0.23.1440.822" timestamp="1585673146315" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1585435469677">
       <screen x="0" y="0" width="1440" height="900" />
@@ -295,11 +305,11 @@
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900/-1920.-67.1920.1080@0.0.1440.900" timestamp="1585175288099" />
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1586635437135" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1586702730152">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1587143120867">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900/-1920.-67.1920.1080@0.0.1440.900" timestamp="1586702730152" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1586640512071" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1587143120867" />
     <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1586635848675">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
