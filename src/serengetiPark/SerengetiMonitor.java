@@ -194,7 +194,6 @@ public class SerengetiMonitor {
                 " - Specimens: " + stSp;
     }
 
-
     // Main
     /**
      * This main method, is a transitory help to make little tests on SerengetiMonitor class.

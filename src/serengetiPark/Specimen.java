@@ -39,8 +39,6 @@ public class Specimen {
     public String getName() {
         return name;
     }
-
-    // Methods
     /**
      * Obtains the first GPS location registered of the Specimen.
      * @return First registered location of the Specimen.
@@ -55,6 +53,8 @@ public class Specimen {
     public GPS lastLocation() {
         return dayRoute.get(dayRoute.size()-1);
     }
+
+    // Methods
     /**
      * Obtains the kilometres that the Specimen has travelled in its day route.
      * @return The kilometres travelled by the Specimen this day.
@@ -108,7 +108,6 @@ public class Specimen {
     @Override public String toString() {
         return name + " " + lastLocation().toString();
     }
-
 
     // Main
     /**

@@ -15,7 +15,10 @@ import java.util.Scanner;
  *
  */
 public class SerengetiSimulator {
-
+    /**
+     * This main method, is going to simulate Serengeti Natural Park.
+     * @param args Not used
+     */
     public static void main(String[] args) {
 
         // Declare the variables that are going to be used

@@ -54,29 +54,6 @@ public class Drone {
 
     // Methods
     /**
-     * Sets drone to not available, after that, it moves to the given location and tries to capture an image, if the
-     * image has been taken successfully, the drone returns to the initial position, sets to available and returns the
-     * taken image. Otherwise, CaptureErrorException will be thrown, when it was not possible to capture the image.
-     * Drone must be available (true).
-     * @param newLocation GPS location to move the Drone.
-     * @return If succeded, the taken image at the position.
-     * @throws CaptureErrorException when it was not possible to capture the image.
-     */
-    public byte[][] moveAndCaptureImage(GPS newLocation) throws CaptureErrorException {
-        GPS start = whereIAm();
-        setAvailable(false);
-        if (!(newLocation.equals(start))) {
-            move(newLocation);
-        }
-        byte[][] image = tryToCapture();
-        if (!(newLocation.equals(start))) {
-            move(start);
-        }
-        setAvailable(true);
-        System.out.println();
-        return image;
-    }
-    /**
      * Simulates the travel time and drone position change.
      * @param newLocation New GPS location to move.
      */
@@ -117,6 +94,29 @@ public class Drone {
         return image;
     }
     /**
+     * Sets drone to not available, after that, it moves to the given location and tries to capture an image, if the
+     * image has been taken successfully, the drone returns to the initial position, sets to available and returns the
+     * taken image. Otherwise, CaptureErrorException will be thrown, when it was not possible to capture the image.
+     * Drone must be available (true).
+     * @param newLocation GPS location to move the Drone.
+     * @return If succeded, the taken image at the position.
+     * @throws CaptureErrorException when it was not possible to capture the image.
+     */
+    public byte[][] moveAndCaptureImage(GPS newLocation) throws CaptureErrorException {
+        GPS start = whereIAm();                             // Saves Drone start location
+        setAvailable(false);                                // Set Drone to not available
+        if (!(newLocation.equals(start))) {                 // If new location is different to start location
+            move(newLocation);                              // Moves to new location
+        }                                                   // Tries to capture image once
+        byte[][] image = tryToCapture();                    // If not taken throws CaptureErrorException
+        if (!(newLocation.equals(start))) {                 // If new location was different to start location
+            move(start);                                    // Moves to start location
+        }                                                   //
+        setAvailable(true);                                 // Set Drone to available
+        System.out.println();                               // Empty line (format reasons)
+        return image;                                       // Return captured image
+    }
+    /**
      * Returns the basic information of a Drone object in a String.
      * @return The basic information of a Drone object in a String.
      */
@@ -138,7 +138,7 @@ public class Drone {
         d1 = new Drone(new GPS(3,8.5),"Drone1");
         System.out.println("d1 created successfully.");
         d2 = new Drone(new GPS(0,0),"Drone2");
-        System.out.println("l2 created successfully. \n");
+        System.out.println("d2 created successfully. \n");
 
         System.out.println("Trying isAvailable() with d1 Drone instance.");
         System.out.println("Is " + d1.isAvailable() + " and should be true. \n");

@@ -99,7 +99,6 @@ public class TrackingDevice {
         TrackingDevice td1 = new TrackingDevice(new GPS(0,2.5));
         System.out.println("td1 created successfully.\n");
 
-
         System.out.println("Simulating move with method whereIAm(), this is the new GPS location: ");
         System.out.println(td1.whereIAm());
         System.out.println();

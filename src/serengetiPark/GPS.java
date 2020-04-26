@@ -88,7 +88,10 @@ public class GPS {
         System.out.println("Latitude: " + l1.getLatitude() + " Longitude: " + l1.getLongitude() + "\n");
 
         System.out.println("Trying distanceTo() from l1 to l2.");
-        System.out.println("Is " + l1.distanceTo(l2) + " and should be approximately 726.2403... + \n");
+        System.out.println("Is " + l1.distanceTo(l2) + " and should be approximately 726.2403... \n");
+
+        System.out.println("Trying equals() with l1 and l2.");
+        System.out.println("Is " + l1.equals(l2) + " and should be false. \n");
 
         System.out.println("Trying toString() with l2 GPS instance.");
         System.out.println(l2.toString());
