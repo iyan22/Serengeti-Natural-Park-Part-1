@@ -60,12 +60,22 @@ public class GPS {
     }
     /**
      * Returns if two GPS instances are equal, this means the latitude and longitude is the same.
-     * @param otherGPS The other GPS instance that will be compared.
+     * @param obj The other Object (GPS) instance that will be compared.
      * @return true if an only if the two GPS instances have the same latitude and longitude values,
      * otherwise false.
      */
-    public boolean equals(GPS otherGPS) {
-        return ((this.getLatitude() == otherGPS.getLatitude()) & (this.getLongitude() == otherGPS.getLongitude()));
+   @Override public boolean equals(Object obj) {
+       if (obj == null) {
+           return false;
+       }
+       else if (!(obj instanceof GPS)) {
+           return false;
+       }
+       else {
+           GPS otherGPS = (GPS) obj;
+           return ((this.getLatitude() == otherGPS.getLatitude()) &
+                   (this.getLongitude() == otherGPS.getLongitude()));
+       }
     }
 
     // Main

@@ -95,11 +95,20 @@ public class Specimen {
     /**
      * Returns true if and only if, the Specimens name and initialLocation are the same.
      * Otherwise, will return false.
-     * @param otherSpecimen Specimen that will be compared
+     * @param obj Object (Specimen) that will be compared.
      * @return true if and only if, the Specimens name are the same. Otherwise, false.
      */
-    public boolean equals(Specimen otherSpecimen) {
-        return (this.getName().equals(otherSpecimen.getName()) & this.initialLocation().equals(otherSpecimen.initialLocation()));
+    @Override public boolean equals(Object obj) {
+        if (obj == null) {
+            return false;
+        }
+        else if (!(obj instanceof Specimen)) {
+            return false;
+        }
+        else {
+            Specimen otherSpecimen = (Specimen) obj;
+            return (this.getName().equals(otherSpecimen.getName()) & this.initialLocation().equals(otherSpecimen.initialLocation()));
+        }
     }
     /**
      * Returns the basic information of a Specimen object in a String.

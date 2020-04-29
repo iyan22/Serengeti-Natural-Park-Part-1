@@ -87,6 +87,7 @@ public class Drone {
         int time = (int) Math.floor(Math.random()*116 + 1);
         // System.out.print(time);
         if (time % 3 == 0) {
+            System.out.println(" image was not taken.");
             throw new CaptureErrorException();
         }
         System.out.print(" image was taken successfully.");

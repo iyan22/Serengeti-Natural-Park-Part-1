@@ -24,10 +24,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/serengetiPark/Drone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/serengetiPark/Drone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/serengetiPark/GPS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/serengetiPark/GPS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serengetiPark/SerengetiMonitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/serengetiPark/SerengetiMonitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/serengetiPark/Specimen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/serengetiPark/Specimen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serengetiPark/TrackingDevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/serengetiPark/TrackingDevice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simulator/SerengetiSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simulator/SerengetiSimulator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,39 +81,31 @@
       <recent name="serengetiPark" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SpecimenTest">
-    <configuration name="GPSTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.SerengetiSimulator">
+    <configuration name="GPS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="serengetiPark.GPS" />
       <module name="SerengetiNaturalPark" />
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.GPSTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SerengetiMonitorTestDefault" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SerengetiMonitor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="serengetiPark.SerengetiMonitor" />
       <module name="SerengetiNaturalPark" />
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.SerengetiMonitorTestDefault" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SerengetiMonitorTestDrones" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SerengetiSimulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="simulator.SerengetiSimulator" />
       <module name="SerengetiNaturalPark" />
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.SerengetiMonitorTestDrones" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SerengetiMonitorTestNoDrones" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Specimen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="serengetiPark.Specimen" />
       <module name="SerengetiNaturalPark" />
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.SerengetiMonitorTestNoDrones" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -132,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SerengetiSimulator" />
+        <item itemvalue="Application.SerengetiMonitor" />
+        <item itemvalue="Application.Specimen" />
+        <item itemvalue="Application.GPS" />
         <item itemvalue="JUnit.SpecimenTest" />
-        <item itemvalue="JUnit.SerengetiMonitorTestNoDrones" />
-        <item itemvalue="JUnit.SerengetiMonitorTestDrones" />
-        <item itemvalue="JUnit.SerengetiMonitorTestDefault" />
-        <item itemvalue="JUnit.GPSTest" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +162,9 @@
       <workItem from="1587142845624" duration="722000" />
       <workItem from="1587322792254" duration="645000" />
       <workItem from="1587378963904" duration="951000" />
-      <workItem from="1587897263943" duration="2267000" />
+      <workItem from="1587897263943" duration="2321000" />
+      <workItem from="1587899855764" duration="950000" />
+      <workItem from="1588182164880" duration="1972000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1586636122089</created>
@@ -217,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587380023207</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Part 1 totally finished and verified.">
+      <created>1587899554099</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1587899554099</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,13 +235,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/SerengetiNaturalPark" />
+    </ignored-roots>
     <MESSAGE value="Initial commit." />
     <MESSAGE value="Finished Project - Part 1." />
     <MESSAGE value="Added uml and diagrams." />
     <MESSAGE value="Added task (PDF)" />
     <MESSAGE value="Updated moveAndCaptureImage method" />
     <MESSAGE value="Part 1 finished and memory added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Part 1 finished and memory added." />
+    <MESSAGE value="Part 1 totally finished and verified." />
+    <option name="LAST_COMMIT_MESSAGE" value="Part 1 totally finished and verified." />
   </component>
   <component name="WindowStateProjectService">
     <state x="100" y="84" width="1240" height="768" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1586098061868">
@@ -272,36 +274,36 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="281" y="23" width="1018" height="821" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1586640502124" />
-    <state width="1398" height="318" key="GridCell.Tab.0.bottom" timestamp="1587899457707">
+    <state width="1398" height="317" key="GridCell.Tab.0.bottom" timestamp="1588200512103">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="176" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-67.1920.1080@0.0.1440.900" timestamp="1585492785517" />
-    <state width="1398" height="318" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-593.1920.1057@0.0.1440.900" timestamp="1587899321964" />
-    <state width="1398" height="318" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-616.1920.1080@0.0.1440.900" timestamp="1587899457707" />
+    <state width="1398" height="318" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-593.1920.1057@0.0.1440.900" timestamp="1587899590854" />
+    <state width="1398" height="317" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-616.1920.1080@0.0.1440.900" timestamp="1588200512103" />
     <state width="1398" height="318" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587380180406" />
     <state width="1398" height="241" key="GridCell.Tab.0.bottom/0.23.1440.822/-1920.-44.1920.1057@0.23.1440.822" timestamp="1585673146316" />
-    <state width="1398" height="318" key="GridCell.Tab.0.center" timestamp="1587899457705">
+    <state width="1398" height="317" key="GridCell.Tab.0.center" timestamp="1588200512101">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="176" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-67.1920.1080@0.0.1440.900" timestamp="1585492785516" />
-    <state width="1398" height="318" key="GridCell.Tab.0.center/0.0.1440.900/1440.-593.1920.1057@0.0.1440.900" timestamp="1587899321962" />
-    <state width="1398" height="318" key="GridCell.Tab.0.center/0.0.1440.900/1440.-616.1920.1080@0.0.1440.900" timestamp="1587899457705" />
+    <state width="1398" height="318" key="GridCell.Tab.0.center/0.0.1440.900/1440.-593.1920.1057@0.0.1440.900" timestamp="1587899590853" />
+    <state width="1398" height="317" key="GridCell.Tab.0.center/0.0.1440.900/1440.-616.1920.1080@0.0.1440.900" timestamp="1588200512101" />
     <state width="1398" height="318" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587380180405" />
     <state width="1398" height="241" key="GridCell.Tab.0.center/0.23.1440.822/-1920.-44.1920.1057@0.23.1440.822" timestamp="1585673146314" />
-    <state width="1398" height="318" key="GridCell.Tab.0.left" timestamp="1587899457704">
+    <state width="1398" height="317" key="GridCell.Tab.0.left" timestamp="1588200512099">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="176" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-67.1920.1080@0.0.1440.900" timestamp="1585492785515" />
-    <state width="1398" height="318" key="GridCell.Tab.0.left/0.0.1440.900/1440.-593.1920.1057@0.0.1440.900" timestamp="1587899321961" />
-    <state width="1398" height="318" key="GridCell.Tab.0.left/0.0.1440.900/1440.-616.1920.1080@0.0.1440.900" timestamp="1587899457704" />
+    <state width="1398" height="318" key="GridCell.Tab.0.left/0.0.1440.900/1440.-593.1920.1057@0.0.1440.900" timestamp="1587899590852" />
+    <state width="1398" height="317" key="GridCell.Tab.0.left/0.0.1440.900/1440.-616.1920.1080@0.0.1440.900" timestamp="1588200512099" />
     <state width="1398" height="318" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587380180404" />
     <state width="1398" height="241" key="GridCell.Tab.0.left/0.23.1440.822/-1920.-44.1920.1057@0.23.1440.822" timestamp="1585673146313" />
-    <state width="1398" height="318" key="GridCell.Tab.0.right" timestamp="1587899457706">
+    <state width="1398" height="317" key="GridCell.Tab.0.right" timestamp="1588200512103">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="176" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-67.1920.1080@0.0.1440.900" timestamp="1585492785516" />
-    <state width="1398" height="318" key="GridCell.Tab.0.right/0.0.1440.900/1440.-593.1920.1057@0.0.1440.900" timestamp="1587899321963" />
-    <state width="1398" height="318" key="GridCell.Tab.0.right/0.0.1440.900/1440.-616.1920.1080@0.0.1440.900" timestamp="1587899457706" />
+    <state width="1398" height="318" key="GridCell.Tab.0.right/0.0.1440.900/1440.-593.1920.1057@0.0.1440.900" timestamp="1587899590853" />
+    <state width="1398" height="317" key="GridCell.Tab.0.right/0.0.1440.900/1440.-616.1920.1080@0.0.1440.900" timestamp="1588200512103" />
     <state width="1398" height="318" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587380180405" />
     <state width="1398" height="241" key="GridCell.Tab.0.right/0.23.1440.822/-1920.-44.1920.1057@0.23.1440.822" timestamp="1585673146315" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1585435469677">
@@ -324,15 +326,17 @@
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900/-1920.-67.1920.1080@0.0.1440.900" timestamp="1585270362786" />
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1585435469677" />
-    <state x="221" y="89" key="SettingsEditor" timestamp="1586635437135">
+    <state x="221" y="89" key="SettingsEditor" timestamp="1587899895548">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900/-1920.-67.1920.1080@0.0.1440.900" timestamp="1585175288099" />
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900/1440.-616.1920.1080@0.0.1440.900" timestamp="1587899895548" />
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1586635437135" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1587380028038">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1587899559714">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900/-1920.-67.1920.1080@0.0.1440.900" timestamp="1586702730152" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.-616.1920.1080@0.0.1440.900" timestamp="1587899559714" />
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1587380028038" />
     <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1586635848675">
       <screen x="0" y="0" width="1440" height="900" />
@@ -364,9 +368,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="426" y="73" key="refactoring.ChangeSignatureDialog/0.0.1440.900/-1920.-67.1920.1080@0.0.1440.900" timestamp="1585317648104" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1585474084729">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1588182555462">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/-1920.-67.1920.1080@0.0.1440.900" timestamp="1585474084729" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.-616.1920.1080@0.0.1440.900" timestamp="1588182555462" />
   </component>
 </project>
