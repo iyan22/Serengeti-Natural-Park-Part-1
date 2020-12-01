@@ -1,4 +1,4 @@
-# SerengetiNaturalPark
+# SerengetiNaturalPark (Part 1)
 In this document there is an explanation of the project that we have done on the PMOO subject on first grade of Computer Science Engineering at EHU/UPV university.
 This projects purpose is to work on concepts that we have been working on the subject, in the first part of the project we are working on concepts such as:
 - Attributes
